@@ -58,10 +58,7 @@ const routeConfig = [{
 
 function App() {
   return (
-    <div className="App">
-        {/* <Home />
-        <Book />
-        <Video /> */}
+    <div className="App">        
         <Router>        
           {renderRoutes(routeConfig)}
           <Route path="/book-comp" component={BookComp}/>
